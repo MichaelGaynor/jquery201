@@ -10,7 +10,7 @@
       /* background: radial-gradient(purple,black); */
       background: linear-gradient(90deg, blue, red);
       background-size: 200% 200%;
-      /* animation: AnimationName .5s ease infinite; */
+      animation: AnimationName .5s ease infinite;
     }
     
     .circle{
@@ -37,7 +37,7 @@
     }
     .circle.right{
       top: 200px;
-      left: 400px;
+      left: 450px;
       z-index: 2;
     }
 
@@ -50,8 +50,8 @@
     }
     .small-circle{
       position: absolute;
-      top: 25px;
-      left: 25px;
+      top: -10px;
+      left: -10px;
       background-color: black;
       border-radius: 50%;
       height: 50px;
